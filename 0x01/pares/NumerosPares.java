@@ -3,7 +3,7 @@ public class NumerosPares {
         for (int i = 0; i <= 97; i++)
             if (i % 2 == 0) {
                 System.out.print(i + ", ");
-                System.out.println(98 + "");
+                System.out.print(98 + "");
             }
     }
 }
