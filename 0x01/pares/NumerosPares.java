@@ -1,9 +1,11 @@
 public class NumerosPares {
     public static void main(String[] args) {
-        for (int i = 0; i <= 97; i++)
+        for (int i = 0; i <= 98; i++)
             if (i % 2 == 0) {
                 System.out.print(i + ", ");
-                System.out.print(98 + "");
+                if (i == 98) {
+                    System.out.print(98 + "");
+                }
             }
     }
 }
