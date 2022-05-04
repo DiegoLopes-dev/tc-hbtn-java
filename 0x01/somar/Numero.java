@@ -3,7 +3,8 @@ import java.util.Scanner;
 class Numero {
 
     public static void main( String[] args ) {
-        int a, b = 0;
+        int a = 0;
+        int b = 0;
         int somar = 0;
         Scanner s = new Scanner( System.in );
         System.out.println( "Entre com os numeros para somar: ");
