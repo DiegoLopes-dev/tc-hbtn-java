@@ -1,5 +1,5 @@
 public class Numero {
-    public static void dividir(int a, int b){
+    public static void dividir(int a){
                 try {
                     System.out.println("teste");
                 } catch (Exception e) {
