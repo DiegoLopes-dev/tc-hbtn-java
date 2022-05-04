@@ -1,3 +1,5 @@
+package somar;
+
 import java.util.Scanner;
 
 public class Numero {
