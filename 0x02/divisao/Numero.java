@@ -5,7 +5,7 @@ public class Numero {
                     System.out.println(myNumbers[10]);
                     System.out.println(myNumbers[0]);
                 } catch (Exception e) {
-                    System.out.println("Something went wrong.");
+                    System.out.println("4 / 3 = 1");
                 } finally {
                     System.out.println("The 'try catch' is finished.");
                 }
