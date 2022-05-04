@@ -1,5 +1,14 @@
 public class Numero {
-    public static int somar(int a, int b){
-        return (a + b);
-    }
-}
+    public static void dividir(int a, int b){
+                try {
+                    int[] myNumbers = {1, 2, 3};
+                    System.out.println(myNumbers[10]);
+                    System.out.println(myNumbers[0]);
+                } catch (Exception e) {
+                    System.out.println("Something went wrong.");
+                } finally {
+                    System.out.println("The 'try catch' is finished.");
+                }
+            }
+        }
+
