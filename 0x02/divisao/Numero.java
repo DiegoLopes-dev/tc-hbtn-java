@@ -7,7 +7,7 @@ public class Numero {
                 } catch (Exception e) {
                     System.out.println("4 / 3 = 1");
                 } finally {
-                    System.out.println("The 'try catch' is finished.");
+                    System.out.println("Nao eh possivel dividir por zero\n 9 / 0 = 0");
                 }
             }
         }
