@@ -1,17 +1,13 @@
 public class Quadrado {
-    public static double area(double lado) {
+    public static void area(double lado) {
 
         int result = 0;
         try {
-            if (lado | b == 0) {
-
+            if (lado < 0) {
             }
-            result = a / b;
-
-        } catch (ArithmeticException e) {
-            System.out.println("Nao eh possivel dividir por zero");
-        } finally {
-            System.out.println(a + " / " + b + " = " + result);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Lado deve possuir valor positivo");
         }
+
     }
 }
