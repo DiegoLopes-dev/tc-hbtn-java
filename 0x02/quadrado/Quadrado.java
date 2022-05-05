@@ -1,5 +1,5 @@
 public class Quadrado {
-    public static void area(double lado) {
+    public static double area(double lado) {
 
         int result = 0;
         try {
@@ -9,5 +9,6 @@ public class Quadrado {
             System.out.println("Lado deve possuir valor positivo");
         }
 
+        return lado;
     }
 }
