@@ -1,5 +1,5 @@
 public class Quadrado {
-    public static double area(double lado) {
+    public static double area(double lado) throws Exception {
 
         int result = 0;
         try {
