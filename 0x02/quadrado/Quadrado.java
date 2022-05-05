@@ -2,7 +2,8 @@ public class Quadrado {
     public static double area(double lado) throws Exception {
 
         double result = 0;
-        try {
+        double area = lado * lado;
+         try {
             if (lado < 0) {
             }
             throw new IllegalArgumentException(lado+ " é menor que 0.");
