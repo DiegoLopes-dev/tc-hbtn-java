@@ -6,9 +6,6 @@ public class Quadrado {
             if (lado < 0) {
             }
             throw new IllegalArgumentException(lado+ " é menor que 0.");
-            if (lado >= 1) {
-            }
-            result = lado * result;
         } catch (IllegalArgumentException e) {
             System.out.println("Lado deve possuir valor positivo");
         }
