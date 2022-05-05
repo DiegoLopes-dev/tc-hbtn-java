@@ -1,9 +1,9 @@
 public class Quadrado {
-    public static void Quadrado(int a, int b) {
+    public static double area(double lado) {
 
         int result = 0;
         try {
-            if (a == 0 | b == 0) {
+            if (lado | b == 0) {
 
             }
             result = a / b;
