@@ -5,7 +5,7 @@ public class Gerente extends Empregado{
     @Override
     public double calcularBonus(Departamento departamento) {
         if (departamento.alcancouMeta() == true) {
-            double bonus = 0.20 * salarioFixo;
+            double bonus = 0.20 * salarioFixo + 0.01 * (departamento.valorAtingidoMeta - departamento.valorMeta);
             return bonus;
 
         } else return 0;
