@@ -11,11 +11,16 @@ public class Empregado {
     }
 
     double calcularBonus(Departamento departamento) {
-        double bonus = 0.10 * salarioFixo;
-        return bonus;
+        if (departamento.alcancouMeta() == true) {
+            double bonus = 0.10 * salarioFixo;
+            return bonus;
+
+        } else return 0;
     }
-    double calcularSalarioTotal(Departamento departamento) {
-        double reajuste = 0.10 * salarioFixo;
-        return salarioFixo + reajuste;
+
+
+        double calcularSalarioTotal(Departamento departamento){
+            double reajuste = 0.10 * salarioFixo;
+            return salarioFixo + reajuste;
+        }
     }
-}

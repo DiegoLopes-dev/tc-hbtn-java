@@ -4,7 +4,10 @@ public class Gerente extends Empregado{
     }
 
     double calcularBonus(Departamento departamento) {
-        double bonus = 0.20 * salarioFixo;
-        return bonus;
+        if (departamento.alcancouMeta() == true) {
+            double bonus = 0.20 * salarioFixo;
+            return bonus;
+
+        } else return 0;
     }
 }
