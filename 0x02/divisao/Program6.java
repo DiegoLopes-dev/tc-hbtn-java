@@ -1,5 +1,5 @@
 
-public class Program {
+public class Program6 {
     public static void main(String[] args) {
         int a, b;
 
