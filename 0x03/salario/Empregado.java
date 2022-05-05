@@ -20,7 +20,7 @@ public class Empregado {
 
 
         double calcularSalarioTotal(Departamento departamento){
-            double reajuste = 0.10 * salarioFixo;
+            double reajuste = calcularBonus(departamento);
             return salarioFixo + reajuste;
         }
     }
