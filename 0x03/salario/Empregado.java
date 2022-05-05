@@ -10,7 +10,7 @@ public class Empregado {
         return salarioFixo;
     }
 
-    public double calcularBonus(Departamento departamento) {
+     double calcularBonus(Departamento departamento) {
         if (departamento.alcancouMeta() == true) {
             double bonus = 0.10 * salarioFixo;
             return bonus;
