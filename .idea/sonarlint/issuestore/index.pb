@@ -21,5 +21,3 @@ G
 0x01/somar/Numero1.java,3/7/37478cbd568af6b7d9cdb81c56f21c0ba3aabe56
 H
 0x01/somar/Program1.java,3/9/396e6f98dfefa14442ecff57b0c63ad3ae3ea597
-K
-0x02/quadrado/Quadrado.java,8/8/8814691c5e60047ddfdc5b42e801ec0280303fd6
