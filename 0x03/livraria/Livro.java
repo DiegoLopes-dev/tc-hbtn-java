@@ -1,4 +1,5 @@
-package exceptions;
+import exceptions.AutorInvalidoException;
+import exceptions.LivroInvalidoException;
 public class Livro {
 
     public String titulo;
