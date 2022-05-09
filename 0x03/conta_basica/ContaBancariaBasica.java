@@ -62,6 +62,8 @@ public class ContaBancariaBasica {
     }
 
     public void aplicarAtualizacaoMensal(){
+        saldo = saldo - taxaJurosMensal;
+        saldo = saldo + tarifaMensal;
 
     }
 }
