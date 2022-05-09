@@ -6,6 +6,8 @@ public class ContaBancariaBasica {
     double taxaJurosAnual;
 
     double tarifaMensal = 0;
+    double taxaJurosMensal = taxaJurosAnual / 12;
+
 
     public String getNumeracao() {
         return numeracao;
@@ -26,6 +28,7 @@ public class ContaBancariaBasica {
 
     public void depositar(double valor) throws Exception {
         if (valor > 0) {
+            saldo = saldo + valor;
         } else {
             throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
         }
@@ -34,25 +37,26 @@ public class ContaBancariaBasica {
     public void sacar(double valor)  throws Exception {
         if (valor > 0 && saldo > valor) {
         } else {
-            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
+            throw new OperacaoInvalidaException("Valor de saque deve ser menor que 0");
         }
     }
 
     public double calcularTarifaMensal() {
 
-        if (saldo * 0.10 < 10) {
-            double tarifaMensal = 10;
+        if (saldo * 0.10 > 10) {
+            tarifaMensal = 10;
         } else {
-            taxaJurosAnual = saldo * 0.10;
+            tarifaMensal = saldo * 0.10;
         }
         return 0;
     }
     public double calcularJurosMensal() {
 
-        if (saldo * 0.10 > 10) {
-            taxaJurosAnual = 10;
+
+        if (saldo > 0 ) {
+            taxaJurosMensal = tarifaMensal;
         } else {
-            taxaJurosAnual = saldo * 0.10;
+            taxaJurosAnual = 0;
         }
         return 0;
     }
