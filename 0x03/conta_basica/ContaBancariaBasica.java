@@ -5,6 +5,8 @@ public class ContaBancariaBasica {
     double saldo = 0;
     double taxaJurosAnual;
 
+    double tarifaMensal = 0;
+
     public String getNumeracao() {
         return numeracao;
     }
@@ -39,7 +41,7 @@ public class ContaBancariaBasica {
     public double calcularTarifaMensal() {
 
         if (saldo * 0.10 < 10) {
-            taxaJurosAnual = 10;
+            double tarifaMensal = 10;
         } else {
             taxaJurosAnual = saldo * 0.10;
         }
@@ -47,7 +49,7 @@ public class ContaBancariaBasica {
     }
     public double calcularJurosMensal() {
 
-        if (saldo * 0.10 < 10) {
+        if (saldo * 0.10 > 10) {
             taxaJurosAnual = 10;
         } else {
             taxaJurosAnual = saldo * 0.10;
