@@ -25,14 +25,14 @@ public class ContaBancariaBasica {
     public void depositar(double valor) throws Exception {
         if (valor > 0) {
         } else {
-            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0" + saldo);
+            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
         }
     }
 
     public void sacar(double valor)  throws Exception {
         if (valor > 0 && saldo > valor) {
         } else {
-            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0" + saldo);
+            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
         }
     }
 
