@@ -1,10 +1,11 @@
 public class LivroEdicaoOuro extends Livro{
 
-    public LivroEdicaoOuro() {
+    public LivroEdicaoOuro(String titulo, String autor, double preco) {
+        super(titulo, autor, preco);
     }
 
     public double getPreco() {
-        Livro.this.preco = Livro.this.preco + 0.10;
-        return preço;
+        preco = preco + 0.10;
+        return preco;
     }
 }
