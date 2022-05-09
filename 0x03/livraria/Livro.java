@@ -1,4 +1,4 @@
-
+package exceptions;
 public class Livro {
 
     public String titulo;
@@ -30,7 +30,7 @@ public class Livro {
 
     public void setAutor(String autor) throws Exception {
         if (!autor.contains(" ")) {
-            throw new AutorInvalidoException();
+            throw new exceptions.AutorInvalidoException();
         } else {
             this.autor = autor;
         }
@@ -41,7 +41,7 @@ public class Livro {
 
     public void setPreco(double preco) throws Exception {
         if (preco <= 0) {
-            throw new LivroInvalidoException("Preco de livro invalido");
+            throw new exceptions.LivroInvalidoException("Preco de livro invalido");
         } else {
             this.preco = preco;;
         }
