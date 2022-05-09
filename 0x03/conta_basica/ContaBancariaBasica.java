@@ -36,6 +36,7 @@ public class ContaBancariaBasica {
 
     public void sacar(double valor)  throws Exception {
         if (valor > 0 && saldo > valor) {
+            saldo = saldo - valor;
         } else {
             throw new OperacaoInvalidaException("Valor de saque deve ser menor que 0");
         }
@@ -48,22 +49,19 @@ public class ContaBancariaBasica {
         } else {
             tarifaMensal = saldo * 0.10;
         }
-        return 0;
+        return tarifaMensal;
     }
     public double calcularJurosMensal() {
 
 
         if (saldo > 0 ) {
-            taxaJurosMensal = tarifaMensal;
+            return saldo * taxaJurosMensal/100;
         } else {
-            taxaJurosAnual = 0;
+            return 0;
         }
-        return 0;
     }
 
     public void aplicarAtualizacaoMensal(){
-        saldo = saldo - taxaJurosMensal;
-        saldo = saldo + tarifaMensal;
-
+        saldo = saldo - calcularTarifaMensal() + calcularJurosMensal();
     }
 }
