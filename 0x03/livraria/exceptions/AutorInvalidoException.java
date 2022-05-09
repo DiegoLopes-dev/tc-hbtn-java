@@ -1,7 +1,9 @@
 public class AutorInvalidoException extends Exception {
 
-    public String getMessage() {
-        return "Nome de autor invalido";
+    public AutorInvalidoException(String message) {
+    }
 
+    public AutorInvalidoException() {
+        super("Nome de autor invalido");
     }
 }

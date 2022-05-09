@@ -1,13 +1,16 @@
+import java.io.IOException;
+
 public class Livro {
 
     public String titulo;
     public String autor;
     public double preco;
 
-    public Livro(String titulo, String autor, double preco) {
-        this.titulo = titulo;
-        this.autor = autor;
-        this.preco = preco;
+    public Livro(String titulo, String autor, double preco)  throws Exception{
+
+        setTitulo(titulo);
+        setAutor(autor);
+        setPreco(preco);
     }
 
     public String getTitulo() {
@@ -18,12 +21,16 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public String getAutor() {
+    public String getAutor()  {
         return autor;
     }
 
-    public void setAutor(String autor) {
-        this.autor = autor;
+    public void setAutor(String autor) throws Exception {
+        if (!autor.contains(" ")) {
+            throw new AutorInvalidoException();
+        } else {
+            this.autor = autor;
+        }
     }
     public double getPreco() {
         return preco;
