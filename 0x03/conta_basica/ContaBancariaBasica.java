@@ -28,7 +28,7 @@ public class ContaBancariaBasica {
         if (valor > 0) {
             saldo = saldo + valor;
         } else {
-            throw new exceptions.OperacaoInvalidaException1("Valor para deposito deve ser maior que 0");
+            throw new exceptions.OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
         }
     }
 
@@ -36,7 +36,7 @@ public class ContaBancariaBasica {
         if (valor >= 0 && saldo >= valor) {
             saldo = saldo - valor;
         } else {
-            throw new exceptions.OperacaoInvalidaException1("Valor de saque deve ser menor que o saldo atual");
+            throw new exceptions.OperacaoInvalidaException("Valor de saque deve ser menor que o saldo atual");
         }
     }
 
