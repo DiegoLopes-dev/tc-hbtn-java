@@ -5,7 +5,7 @@ public class LivroEdicaoOuro extends Livro{
     }
 
     public double getPreco() {
-        preco = preco + 0.10;
+        preco = preco + 0.30 * preco;
         return preco;
     }
 }
