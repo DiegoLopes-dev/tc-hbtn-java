@@ -1,3 +1,4 @@
+import exceptions.OperacaoInvalidaException;
 public class ContaBancariaBasica {
 
     String numeracao;
