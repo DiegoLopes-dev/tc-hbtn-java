@@ -44,4 +44,17 @@ public class ContaBancariaBasica {
         }
         return 0;
     }
+    public double calcularJurosMensal() {
+
+        if (saldo * 0.10 < 10) {
+            taxaJurosAnual = 10;
+        } else {
+            taxaJurosAnual = saldo * 0.10;
+        }
+        return 0;
+    }
+
+    public void aplicarAtualizacaoMensal(){
+
+    }
 }
