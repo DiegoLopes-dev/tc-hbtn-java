@@ -17,8 +17,12 @@ public class Livro {
         return titulo;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setTitulo(String titulo) throws Exception{
+        if (titulo == "ab") {
+            throw new LivroInvalidoException("titulo de livro invalido");
+        } else {
+            this.titulo = titulo;
+        }
     }
 
     public String getAutor()  {
@@ -36,7 +40,11 @@ public class Livro {
         return preco;
     }
 
-    public void setPreco(double preco) {
-        this.preco = preco;
+    public void setPreco(double preco) throws Exception {
+        if (preco <= 0) {
+            throw new LivroInvalidoException("Preco de livro invalido");
+        } else {
+            this.preco = preco;;
+        }
     }
 }
