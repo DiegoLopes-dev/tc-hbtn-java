@@ -22,14 +22,14 @@ public class ContaBancariaBasica {
         this.taxaJurosAnual = taxaJurosAnual;
     }
 
-    public void depositar(double valor) {
+    public void depositar(double valor) throws Exception {
         if (valor > 0) {
         } else {
             throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0" + saldo);
         }
     }
 
-    public void sacar(double valor) {
+    public void sacar(double valor)  throws Exception {
         if (valor > 0 && saldo > valor) {
         } else {
             throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0" + saldo);
