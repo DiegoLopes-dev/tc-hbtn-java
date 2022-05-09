@@ -1,4 +1,4 @@
-public class Program {
+public class Program10 {
     public static void main(String[] args) {
         try {
             ContaBancariaBasica conta1 = new ContaBancariaBasica("AAA", 50.0);

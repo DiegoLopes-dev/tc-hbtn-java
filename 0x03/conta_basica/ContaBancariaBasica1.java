@@ -1,5 +1,4 @@
-import exceptions.OperacaoInvalidaException;
-public class ContaBancariaBasica {
+public class ContaBancariaBasica1 {
 
     String numeracao;
     double saldo = 0;
@@ -20,7 +19,7 @@ public class ContaBancariaBasica {
         return taxaJurosAnual;
     }
 
-    public ContaBancariaBasica(String numeracao, double taxaJurosAnual) {
+    public ContaBancariaBasica1(String numeracao, double taxaJurosAnual) {
         this.numeracao = numeracao;
         this.taxaJurosAnual = taxaJurosAnual;
     }
@@ -29,7 +28,7 @@ public class ContaBancariaBasica {
         if (valor > 0) {
             saldo = saldo + valor;
         } else {
-            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
+            throw new exceptions.OperacaoInvalidaException1("Valor para deposito deve ser maior que 0");
         }
     }
 
@@ -37,7 +36,7 @@ public class ContaBancariaBasica {
         if (valor >= 0 && saldo >= valor) {
             saldo = saldo - valor;
         } else {
-            throw new OperacaoInvalidaException("Valor de saque deve ser menor que o saldo atual");
+            throw new exceptions.OperacaoInvalidaException1("Valor de saque deve ser menor que o saldo atual");
         }
     }
 
