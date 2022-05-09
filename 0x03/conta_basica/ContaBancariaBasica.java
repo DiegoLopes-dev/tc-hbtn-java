@@ -1,4 +1,4 @@
-public class ContaBancariaBasica1 {
+public class ContaBancariaBasica {
 
     String numeracao;
     double saldo = 0;
@@ -19,7 +19,7 @@ public class ContaBancariaBasica1 {
         return taxaJurosAnual;
     }
 
-    public ContaBancariaBasica1(String numeracao, double taxaJurosAnual) {
+    public ContaBancariaBasica(String numeracao, double taxaJurosAnual) {
         this.numeracao = numeracao;
         this.taxaJurosAnual = taxaJurosAnual;
     }

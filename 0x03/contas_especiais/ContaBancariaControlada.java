@@ -1,20 +1,20 @@
 public class ContaBancariaControlada extends ContaBancariaBasica {
-
     private double saldoMinimo;
+
     private double valorPenalidade;
 
     public ContaBancariaControlada(String numeracao, double taxaJurosAnual, double saldoMinimo, double valorPenalidade) {
+        super(numeracao, taxaJurosAnual);
         this.saldoMinimo = saldoMinimo;
         this.valorPenalidade = valorPenalidade;
-        super(numeracao, taxaJurosAnual);
     }
 
     public void aplicarAtualizacaoMensal(){
 
-        if(ContaBancariaBasica.this.saldo < saldoMinimo || ContaBancariaBasica.this.saldo < 0) {
-            ContaBancariaBasica.this.saldo = ContaBancariaBasica.this.saldo - valorPenalidade;
+        if(this.saldo <= saldoMinimo || this.saldo <= 0) {
+            this.saldo = this.saldo - calcularTarifaMensal() + calcularJurosMensal() - valorPenalidade;
         } else {
-            ContaBancariaBasica.this.saldo = ContaBancariaBasica.this.saldo - calcularTarifaMensal() + calcularJurosMensal();
+            this.saldo = this.saldo - calcularTarifaMensal() + calcularJurosMensal();
         }
     }
 }
