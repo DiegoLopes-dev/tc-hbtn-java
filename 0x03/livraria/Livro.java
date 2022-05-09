@@ -19,7 +19,7 @@ public class Livro {
 
     public void setTitulo(String titulo) throws Exception{
         if (titulo == "ab") {
-            throw new LivroInvalidoException("titulo de livro invalido");
+            throw new LivroInvalidoException("Titulo de livro invalido");
         } else {
             this.titulo = titulo;
         }
