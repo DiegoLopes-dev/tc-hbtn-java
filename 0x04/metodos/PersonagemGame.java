@@ -29,7 +29,7 @@ public class PersonagemGame {
         if(saudeAtual + quantidadeDeCura == 100){
             saudeAtual = saudeAtual + quantidadeDeCura;
         }else {
-            saudeAtual = 0;
+            saudeAtual = 100;
         }
     }
 }
