@@ -20,7 +20,7 @@ public class PersonagemGame {
 
     public void tomarDano(int quantidadeDeDano){
         if(saudeAtual - quantidadeDeDano >= 0){
-            saudeAtual = saudeAtual - quantidadeDeDano;
+            saudeAtual -= quantidadeDeDano;
         } else {
             saudeAtual = saudeAtual;
         }
