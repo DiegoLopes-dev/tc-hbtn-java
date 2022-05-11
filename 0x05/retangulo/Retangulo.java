@@ -14,11 +14,11 @@ public class Retangulo {
         }
     }
 
-    public double getAltura() throws Exception {
+    public double getAltura(){
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(double altura) throws Exception {
         if(altura < 0){
             throw new IllegalArgumentException("Altura deve ser maior ou igual a 0");
         }else{
