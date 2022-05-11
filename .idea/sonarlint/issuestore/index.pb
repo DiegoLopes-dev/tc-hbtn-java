@@ -13,8 +13,6 @@ M
 0x01/numeros/Numeros0a99.java,6/0/607363a34060afe0d1444648907defd9e98d6315
 L
 0x01/pares/NumerosPares.java,0/6/06f6a0b7659c49d2a8503fed016295cfd21bbb57
-M
-0x01/maiusculo/Caractere.java,8/6/861656f42fa3eb566deea0f9cb85dde8c50ef642
 L
 0x01/maiusculo/Program2.java,9/1/91fc858e2ede705d715fff5efc6f55dcdeeddd41
 G
