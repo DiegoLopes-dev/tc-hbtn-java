@@ -1,6 +1,7 @@
 public class Retangulo {
     private double largura;
     private double altura;
+
     public double getLargura() {
         return largura;
     }
