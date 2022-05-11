@@ -31,10 +31,10 @@ public class PersonagemGame {
     }
 
     public void setNome(String nome) {
-        if(nome != null || nome != ""){
-            this.nome = nome;
-        }else{
+        if(nome == null || nome.isEmpty()){
 
+        }else{
+            this.nome = nome;
         }
 
 
