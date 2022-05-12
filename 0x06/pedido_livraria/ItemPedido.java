@@ -3,9 +3,9 @@ public class ItemPedido {
     private int quantidade;
     private Produto produto;
 
-    public ItemPedido(int quantidade, Produto produto) {
-        this.quantidade = quantidade;
+    public ItemPedido(Produto produto, int quantidade) {
         this.produto = produto;
+        this.quantidade = quantidade;
     }
 
     public int getQuantidade() {
