@@ -1,7 +1,7 @@
 public class Pedido {
 
-    int percentualDesconto;
-    ItemPedido[] itens;
+    private int percentualDesconto;
+    private ItemPedido[] itens;
 
     public int getPercentualDesconto() {
         return percentualDesconto;

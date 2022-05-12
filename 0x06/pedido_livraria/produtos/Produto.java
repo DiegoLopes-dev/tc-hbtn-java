@@ -1,10 +1,10 @@
 package produtos;
 public abstract class Produto {
 
-    public String titulo;
-    public int ano;
-    public String pais;
-    public double precoBruto;
+    protected String titulo;
+    protected int ano;
+    protected String pais;
+    protected double precoBruto;
 
     public Produto(String titulo, int ano, String pais, double precoBruto) {
         this.titulo = titulo;

@@ -1,7 +1,7 @@
 public class ItemPedido {
 
-    public int quantidade;
-    Produto produto;
+    private int quantidade;
+    private Produto produto;
 
     public ItemPedido(int quantidade, Produto produto) {
         this.quantidade = quantidade;
