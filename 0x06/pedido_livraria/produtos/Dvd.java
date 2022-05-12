@@ -1,14 +1,14 @@
 package produtos;
 public class Dvd extends Produto {
-    String diretor;
-    String genero;
-    int duracao;
+    private String diretor;
+    private String genero;
+    private int duracao;
 
     public Dvd(String titulo, int ano, String pais, double precoBruto,String diretor, String genero, int duracao) {
+        super(titulo, ano, pais, precoBruto);
         this.diretor = diretor;
         this.genero = genero;
         this.duracao = duracao;
-        super(titulo, ano, pais, precoBruto);
     }
 
     public String getDiretor() {
@@ -37,7 +37,7 @@ public class Dvd extends Produto {
 
     @Override
     public abstract double obterPrecoLiquido() {
-        obterPrecoLiquido = this.precoBruto + 0.15 * this.precoBruto;
+        obterPrecoLiquido = this.precoBruto + 0.20 * this.precoBruto;
         return obterPrecoLiquido;
     }
 }
