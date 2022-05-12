@@ -24,13 +24,21 @@ public class Pedido {
         this.itens = itens;
     }
 
-    public  double calcularTotal() {
-         double quatidade = 0;
+//    public double calcularTotal() {
+//         double quatidade = 0;
+//
+//        for (int i = 0; i < itens.length; i++) {
+//            quatidade = quatidade + itens[i].getProduto().obterPrecoLiquido() * itens[i].getQuantidade();
+//        }
+//        quatidade = quatidade - percentualDesconto * quatidade / 100;
+//        return quatidade;
+//    }
 
-        for (int i = 0; i < itens.length; i++) {
-            quatidade = quatidade + itens[i].getProduto().obterPrecoLiquido() * itens[i].getQuantidade();
+    public double calcularTotal() {
+        double somaTotal = 0;
+        for (ItemPedido item : getItens()){
+            somaTotal = somaTotal + item.getProduto().obterPrecoLiquido() * item.getQuantidade();
         }
-        quatidade = quatidade - percentualDesconto * quatidade / 100;
-        return quatidade;
+        return somaTotal * (1 - getPercentualDesconto()/100);
     }
 }
