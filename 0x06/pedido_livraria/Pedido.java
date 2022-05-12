@@ -1,13 +1,13 @@
 public class Pedido {
 
-    private int percentualDesconto;
+    private double percentualDesconto;
     private ItemPedido[] itens;
 
-    public int getPercentualDesconto() {
+    public double getPercentualDesconto() {
         return percentualDesconto;
     }
 
-    public void setPercentualDesconto(int percentualDesconto) {
+    public void setPercentualDesconto(double percentualDesconto) {
         this.percentualDesconto = percentualDesconto;
     }
 
@@ -19,7 +19,7 @@ public class Pedido {
         this.itens = itens;
     }
 
-    public Pedido(int percentualDesconto, ItemPedido[] itens) {
+    public Pedido(double percentualDesconto, ItemPedido[] itens) {
         this.percentualDesconto = percentualDesconto;
         this.itens = itens;
     }
