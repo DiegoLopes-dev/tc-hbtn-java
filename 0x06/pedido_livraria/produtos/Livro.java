@@ -38,7 +38,7 @@ public class Livro extends Produto {
     @Override
     public double obterPrecoLiquido() {
         double obterPrecoLiquido;
-        obterPrecoLiquido = this.precoBruto + 0.15 * this.precoBruto;
+        obterPrecoLiquido = super.precoBruto + 0.15 * super.precoBruto;
         return obterPrecoLiquido;
     }
 }
