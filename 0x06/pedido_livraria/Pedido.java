@@ -26,7 +26,8 @@ public class Pedido {
 
     public  double calcularTotal() {
          double quatidade = 0;
-        for (i = 0; i < itens.length; i++) {
+
+        for (int i = 0; i < itens.length; i++) {
             quatidade = quatidade + itens[i].getProduto().obterPrecoLiquido() * itens[i].getQuantidade();
         }
         quatidade = quatidade - percentualDesconto * quatidade / 100;
