@@ -5,7 +5,7 @@ public class Retangulo extends FormaGeometrica {
     public double getLargura() {
         return largura;
     }
-    public void setLargura(double largura) throws Exception {
+    public void setLargura(double largura) {
         if(largura < 0){
             throw new IllegalArgumentException("Largura deve ser maior ou igual a 0");
         }else{
@@ -15,7 +15,7 @@ public class Retangulo extends FormaGeometrica {
     public double getAltura(){
         return altura;
     }
-    public void setAltura(double altura) throws Exception {
+    public void setAltura(double altura) {
         if(altura < 0){
             throw new IllegalArgumentException("Altura deve ser maior ou igual a 0");
         }else{
