@@ -1,5 +1,3 @@
-import pedido_livraria.ItemPedido;
-
 public class Pedido {
 
     private double percentualDesconto;

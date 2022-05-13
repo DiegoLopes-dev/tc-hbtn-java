@@ -1,7 +1,5 @@
 import pedido_livraria.ItemPedido;
 
-import java.text.DecimalFormat;
-
 public class Pedido {
 
     private double percentualDesconto;
