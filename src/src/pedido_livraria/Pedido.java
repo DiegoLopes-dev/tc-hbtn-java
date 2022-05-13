@@ -60,5 +60,8 @@ public class Pedido {
         System.out.println("----------------------------");
         System.out.println("DESCONTO: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal * percentualDesconto/100)));
         System.out.println("TOTAL PRODUTOS: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal)));
+        System.out.println("----------------------------");
+        System.out.println("TOTAL PEDIDO: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal - somaTotal * percentualDesconto/100 )));
+        System.out.println("----------------------------");
     }
 }
