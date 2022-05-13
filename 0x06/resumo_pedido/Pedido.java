@@ -1,3 +1,5 @@
+import pedido_livraria.ItemPedido;
+
 public class Pedido {
 
     private double percentualDesconto;
@@ -42,9 +44,19 @@ public class Pedido {
         return somaTotal * (1 - getPercentualDesconto()/100);
     }
     public void apresentarResumoPedido() {
-        double somaTotal = 0;
-        somaTotal = somaTotal + item.getProduto().obterPrecoLiquido() * item.getQuantidade();
         System.out.println("------- RESUMO PEDIDO -------");
-        System.out.println("Tipo: Livro  Titulo: " + item.getProduto().titulo() + somaTotal);
+        double somaTotal = 0;
+        for (ItemPedido item : getItens()) {
+            String tipoProduto = item.getProduto().getClass().getSimpleName();
+            String tituloProduto = item.getProduto().getTitulo();
+            double precoLiquido = item.getProduto().obterPrecoLiquido();
+            int quantidadeProduto = item.getQuantidade();
+            double precoTotal = item.getProduto().obterPrecoLiquido() * item.getQuantidade();
+            somaTotal = precoTotal + somaTotal;
+            System.out.println("Tipo: " + tipoProduto + "  Titulo: " + tituloProduto + "  Preco: " + (String.format(java.util.Locale.GERMANY, "%.2f", precoLiquido)) + "  Quant: " + quantidadeProduto + "  Total: " + (String.format(java.util.Locale.GERMANY, "%.2f", precoTotal)));
+        }
+        System.out.println("----------------------------");
+        System.out.println("DESCONTO: " + (String.format(java.util.Locale.GERMANY, "%.2f", somaTotal * percentualDesconto / 100)));
+        System.out.println("TOTAL PRODUTOS: " + (String.format(java.util.Locale.GERMANY, "%.2f", somaTotal)));
     }
 }
