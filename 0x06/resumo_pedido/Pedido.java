@@ -46,17 +46,20 @@ public class Pedido {
     public void apresentarResumoPedido() {
         System.out.println("------- RESUMO PEDIDO -------");
         double somaTotal = 0;
-        for (ItemPedido item : getItens()) {
+        for (ItemPedido item : getItens()){
             String tipoProduto = item.getProduto().getClass().getSimpleName();
             String tituloProduto = item.getProduto().getTitulo();
             double precoLiquido = item.getProduto().obterPrecoLiquido();
             int quantidadeProduto = item.getQuantidade();
             double precoTotal = item.getProduto().obterPrecoLiquido() * item.getQuantidade();
             somaTotal = precoTotal + somaTotal;
-            System.out.println("Tipo: " + tipoProduto + "  Titulo: " + tituloProduto + "  Preco: " + (String.format(java.util.Locale.GERMANY, "%.2f", precoLiquido)) + "  Quant: " + quantidadeProduto + "  Total: " + (String.format(java.util.Locale.GERMANY, "%.2f", precoTotal)));
+            System.out.println("Tipo: " + tipoProduto + "  Titulo: " + tituloProduto + "  Preco: " + (String.format(java.util.Locale.GERMANY, "%.2f",precoLiquido)) + "  Quant: " + quantidadeProduto + "  Total: " +  (String.format(java.util.Locale.GERMANY, "%.2f",precoTotal)));
         }
         System.out.println("----------------------------");
-        System.out.println("DESCONTO: " + (String.format(java.util.Locale.GERMANY, "%.2f", somaTotal * percentualDesconto / 100)));
-        System.out.println("TOTAL PRODUTOS: " + (String.format(java.util.Locale.GERMANY, "%.2f", somaTotal)));
+        System.out.println("DESCONTO: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal * percentualDesconto/100)));
+        System.out.println("TOTAL PRODUTOS: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal)));
+        System.out.println("----------------------------");
+        System.out.println("TOTAL PEDIDO: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal - somaTotal * percentualDesconto/100 )));
+        System.out.println("----------------------------");
     }
 }
