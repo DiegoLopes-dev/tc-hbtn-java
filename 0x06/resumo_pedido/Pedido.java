@@ -41,11 +41,10 @@ public class Pedido {
         }
         return somaTotal * (1 - getPercentualDesconto()/100);
     }
-
-   public void apresentarResumoPedido() {
-       double somaTotal = 0;
-       somaTotal = somaTotal + item.getProduto().obterPrecoLiquido() * item.getQuantidade();
-       System.out.println("------- RESUMO PEDIDO -------");
-       System.out.println("Tipo: Livro  Titulo: " + item.getProduto().titulo());
+    public void apresentarResumoPedido() {
+        double somaTotal = 0;
+        somaTotal = somaTotal + item.getProduto().obterPrecoLiquido() * item.getQuantidade();
+        System.out.println("------- RESUMO PEDIDO -------");
+        System.out.println("Tipo: Livro  Titulo: " + item.getProduto().titulo() + somaTotal);
     }
 }

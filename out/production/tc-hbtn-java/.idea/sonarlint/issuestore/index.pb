@@ -13,21 +13,9 @@ M
 0x01/numeros/Numeros0a99.java,6/0/607363a34060afe0d1444648907defd9e98d6315
 L
 0x01/pares/NumerosPares.java,0/6/06f6a0b7659c49d2a8503fed016295cfd21bbb57
-M
-0x01/maiusculo/Caractere.java,8/6/861656f42fa3eb566deea0f9cb85dde8c50ef642
 L
 0x01/maiusculo/Program2.java,9/1/91fc858e2ede705d715fff5efc6f55dcdeeddd41
 G
 0x01/somar/Numero1.java,3/7/37478cbd568af6b7d9cdb81c56f21c0ba3aabe56
 H
 0x01/somar/Program1.java,3/9/396e6f98dfefa14442ecff57b0c63ad3ae3ea597
-J
-0x02/quadrado/Program.java,1/0/10ca003963b53e996c5a83077f0695d1b2983dc6
-I
-0x02/divisao/Program.java,8/4/8431c0817ba2da377f17702aa02156c2238497c6
-K
-0x03/salario/Empregado.java,9/1/91ab4c07c5e6a81c42ebde2ce9c03b07eef83c78
-I
-0x03/salario/Gerente.java,f/2/f25651f088884945d6aa413319e4d0ea49732e90
-K
-0x02/quadrado/Quadrado.java,8/8/8814691c5e60047ddfdc5b42e801ec0280303fd6
