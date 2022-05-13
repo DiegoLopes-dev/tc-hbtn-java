@@ -55,7 +55,7 @@ public class Pedido {
             int quantidadeProduto = item.getQuantidade();
             double precoTotal = item.getProduto().obterPrecoLiquido() * item.getQuantidade();
             somaTotal = precoTotal + somaTotal;
-            System.out.println("Tipo: " + tipoProduto + "  Titulo: " + tituloProduto + "  Preco: " + (String.format(java.util.Locale.GERMANY, "%.2f",precoLiquido)) + "  Quant: " + quantidadeProduto);
+            System.out.println("Tipo: " + tipoProduto + "  Titulo: " + tituloProduto + "  Preco: " + (String.format(java.util.Locale.GERMANY, "%.2f",precoLiquido)) + "  Quant: " + quantidadeProduto + "  Total: " +  (String.format(java.util.Locale.GERMANY, "%.2f",precoTotal)));
         }
         System.out.println("----------------------------");
         System.out.println("DESCONTO: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal * percentualDesconto/100)));
