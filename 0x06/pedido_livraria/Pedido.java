@@ -59,7 +59,7 @@ public class Pedido {
             System.out.println("Tipo: " + tipoProduto + "  Titulo: " + tituloProduto + "  Preco: " + new DecimalFormat(".##").format(precoLiquido) + "  Quant: " + quantidadeProduto);
         }
         System.out.println("----------------------------");
-        System.out.println("DESCONTO: " + (String.format("%.2f",somaTotal * percentualDesconto/100)));
+        System.out.println("DESCONTO: " + (String.format(java.util.Locale.GERMANY, "%.2f",somaTotal * percentualDesconto/100)));
         System.out.println("TOTAL PRODUTOS: " + new DecimalFormat(".##").format(somaTotal));
     }
 }
