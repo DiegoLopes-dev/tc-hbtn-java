@@ -1,0 +1,14 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(™²•ïþÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(Àš¾…ýÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(•ëù þÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(þæ£ñþÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(¥úÓ©
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(þÒø§øÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(þæ£ñþÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(¥•žöüÿÿÿÿ
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(þæ£ñþÿÿÿÿ8Ð¼ºø‹0
+J
+java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜
+
+java:S1192<"]Define a constant instead of duplicating this literal "----------------------------" 3 times.(þæ£ñþÿÿÿÿ8Ñ¼ºø‹0

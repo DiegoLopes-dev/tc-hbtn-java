@@ -1,0 +1,10 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Ö˜Ó­
+/
+java:S2178"Correct this "|" to "||".(€¦Ó•
+E	java:S108")Either remove or fill this block of code.(€¦Ó•8ß‘Ù£‰0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(½€¯Í
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÈØ
+Y
+java:S3518	"7Make sure "b" can't be zero before doing this division.(±Ñé¨ıÿÿÿÿ8¦¬Ù£‰0
