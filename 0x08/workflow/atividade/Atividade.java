@@ -1,4 +1,4 @@
 package workflow.atividade;
 
-public class Atividade {
+public interface Atividade {
 }

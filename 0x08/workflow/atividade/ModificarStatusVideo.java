@@ -1,4 +1,3 @@
-package workflow.atividade;
 
 public class ModificarStatusVideo {
 
