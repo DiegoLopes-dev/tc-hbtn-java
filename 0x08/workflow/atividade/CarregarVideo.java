@@ -1,4 +1,5 @@
-public class CarregarVideo {
+
+public class CarregarVideo implements Atividade {
 
 
     public CarregarVideo(){
