@@ -1,7 +1,8 @@
 package atividades;
 public class ModificarStatusVideo implements Atividade {
 
-    public void ModificarStatusVideo(){
+    @Override
+    public void executar(){
         System.out.println("modificando status do video");
     }
 }

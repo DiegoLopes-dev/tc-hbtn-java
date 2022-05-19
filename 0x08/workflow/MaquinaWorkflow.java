@@ -1,7 +1,8 @@
-
 public class MaquinaWorkflow {
 
-    public void executar(Workflow workflow){
-
+    public void executar(Workflow workflow) {
+        for (Atividade atividade : getAtividade()) {
+            atividade.executar();
+        }
     }
 }

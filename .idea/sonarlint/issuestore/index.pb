@@ -125,8 +125,6 @@ b
 20x03/contas_especiais/ContaBancariaControlada.java,8/6/865cb620988f48c2f8512f683ba676036bcdc595
 T
 $0x03/contas_especiais/Program11.java,0/e/0e6c192f4d29690261d1f200a304257c94d2d4f0
-Q
-!0x06/pedido_livraria/Program.java,a/3/a3e5e85c6a1a4293f7460c466b68983f47bd8031
 S
 #src/src/pedido_livraria/Pedido.java,6/1/615ddfe26a7540348d9a4252df8bcd19a9240142
 T
