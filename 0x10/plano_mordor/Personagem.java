@@ -17,7 +17,7 @@ public class Personagem {
             return new Irritado();
         }else if(pontosDeFelicidade < -5 || pontosDeFelicidade <= 0){
             return new Triste();
-        }else if(pontosDeFelicidade >= 1 || pontosDeFelicidade <= 15){
+        }else if(pontosDeFelicidade >= 1 && pontosDeFelicidade <= 15){
             return new Feliz();
         }else{
             return new MuitoFeliz();
