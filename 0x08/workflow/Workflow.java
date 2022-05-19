@@ -1,6 +1,15 @@
+import atividades.Atividade;
+import java.util.ArrayList;
 public class Workflow {
 
-    ArrayList<Atividade> atividade = new ArrayList<Atividade>();
+    public ArrayList<Atividade> atividade = new ArrayList<Atividade>();
+
+    public Workflow() {
+    }
+
+    public Workflow(ArrayList<Atividade> atividade) {
+        this.atividade = atividade;
+    }
 
     public ArrayList<Atividade> getAtividade() {
         return atividade;
