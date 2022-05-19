@@ -1,4 +1,4 @@
-
+package atividades;
 public class ModificarStatusVideo implements Atividade {
 
     public void ModificarStatusVideo(){
