@@ -1,5 +1,3 @@
-import pedido_livraria.ItemPedido;
-
 public class Workflow {
 
     ArrayList<Atividade> atividade = new ArrayList<Atividade>();
