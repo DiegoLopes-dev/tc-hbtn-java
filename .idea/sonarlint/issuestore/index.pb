@@ -128,8 +128,6 @@ $0x03/contas_especiais/Program11.java,0/e/0e6c192f4d29690261d1f200a304257c94d2d
 S
 #src/src/pedido_livraria/Pedido.java,6/1/615ddfe26a7540348d9a4252df8bcd19a9240142
 T
-$src/src/pedido_livraria/Produto.java,6/f/6f50d12e90633180f73bf8fc739b1b587ad6ad27
-T
 $src/src/pedido_livraria/Program.java,7/1/710351543128b64bf46b8d3143a91321e026b907
 R
 "0x06/resumo_pedido/ItemPedido.java,7/2/72d9591b19e40395c7699a0b7c2c2395a17ae9f2
