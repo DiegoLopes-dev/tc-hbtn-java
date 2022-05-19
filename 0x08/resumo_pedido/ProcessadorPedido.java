@@ -1,6 +1,4 @@
-package resumo_pedido;
-
-import resumo_pedido.provedores.ProvedorFrete;
+import provedores.ProvedorFrete;
 
 public class ProcessadorPedido {
 
