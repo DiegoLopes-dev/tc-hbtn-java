@@ -1,4 +1,4 @@
-public class PersonagemGame2 {
+public class PersonagemGame {
     private int saudeAtual;
     private String nome;
     private String status;
@@ -7,7 +7,7 @@ public class PersonagemGame2 {
         return status;
     }
 
-    public PersonagemGame2(int saudeAtual, String nome) {
+    public PersonagemGame(int saudeAtual, String nome) {
         this.setSaudeAtual(saudeAtual);
         this.nome = nome;
 

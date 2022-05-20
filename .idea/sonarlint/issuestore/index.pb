@@ -5,22 +5,16 @@ R
 "0x00-java-hello_world/Println.java,b/0/b0bc4e27aa911446f06a075f333ed57769918b92
 \
 ,0x00-java-hello_world/PrintStringConcat.java,d/a/da23864c0b851b6d96ebea8ea4340811c12f3f62
-]
--0x00-java-hello_world/PrintFloatVariable.java,d/0/d080f8cefef03217b2ae488ee4723e1896c64290
 _
 /0x00-java-hello_world/PrintIntegerVariable.java,8/9/894cc7997febf33cf1854b209fca8942f08e6a8c
 M
 0x01/numeros/Numeros0a99.java,6/0/607363a34060afe0d1444648907defd9e98d6315
 L
 0x01/pares/NumerosPares.java,0/6/06f6a0b7659c49d2a8503fed016295cfd21bbb57
-L
-0x01/maiusculo/Program2.java,9/1/91fc858e2ede705d715fff5efc6f55dcdeeddd41
 G
 0x01/somar/Numero1.java,3/7/37478cbd568af6b7d9cdb81c56f21c0ba3aabe56
 H
 0x01/somar/Program1.java,3/9/396e6f98dfefa14442ecff57b0c63ad3ae3ea597
-J
-0x02/divisao/Program6.java,8/d/8d7bba60074ac1e37f7f40ce60dc9c59da06dee6
 d
 40x03/livraria/exceptions/LivroInvalidoException.java,0/b/0b9332ec3ea9febd70bc9c76f7ce891464e7ed14
 d
@@ -39,8 +33,6 @@ o
 ?0x03/contas_especiais/exceptions/OperacaoInvalidaException.java,3/7/3744b2fabe2b744e59f90cfe44a9d7f0504ae7b7
 k
 ;0x03/conta_basica/exceptions/OperacaoInvalidaException.java,9/9/9922e55f5ec97a4bf7a5386c33c84b1b83dfcbbf
-J
-0x03/salario/Program7.java,6/f/6fbb40dfe1bf88ce0f7dab42cb509624266632aa
 H
 0x02/divisao/Numero.java,5/9/59283ad88ee662f3fc4d60de492760735e3d7b6b
 S
@@ -65,12 +57,8 @@ H
 0x05/heranca/Animal.java,1/f/1f383493226dae5819b4c100b971dd7dc19335ae
 O
 0x05/forma/FormaGeometrica.java,4/a/4aea4c67d3e4cd3b97824c57b70835791a0054fa
-K
-0x04/metodos/Program12.java,f/b/fb1e615297cc84cc5c71859500e6ca436c8d9859
 G
 0x05/forma/Program.java,3/8/38f474655cb3e56c03cfc6bf258b2effdaa16f4b
-V
-&0x04/consistencia/PersonagemGame2.java,8/c/8c3690e70d592a2f861381739c5a8a3868093263
 ^
 .0x03/contas_especiais/ContaBancariaBasica.java,d/f/df249099cfc7a9b61b4cdaba99a6eb1031fcd261
 P
@@ -83,8 +71,6 @@ $0x05/retangulo_completo/Program.java,1/e/1ea718d9805da3517364b311432b871ae8818
 ,0x05/retangulo_completo/FormaGeometrica.java,f/a/fa1f63cd74e9206dc185a0d9727b60312e1c064c
 R
 "0x05/quadrado/FormaGeometrica.java,5/c/5cff2318c5697cd09deca95ebf12b81919fbd5a1
-K
-0x02/quadrado/Program7.java,1/1/11518bd712a776af6bce7e8a62f639ef6899d026
 J
 0x03/livraria/Program.java,1/5/15378ff67c23b1ca897134b77a017e68dab31160
 K
@@ -109,8 +95,6 @@ M
 0x05/retangulo/Retangulo.java,0/2/027bac869131cfd6a7b95872dbff8388287a0296
 S
 #0x05/retangulo/FormaGeometrica.java,b/1/b1c31cc8e6af75f0529afb95db7bdcac801f01e8
-P
- 0x03/conta_basica/Program13.java,6/3/633e9390eef5c170ac44ff7bae65987f93bf8f6b
 L
 0x04/personagem/Program.java,1/5/15ced1b6e2c9b328a6deee368aa7d0a71cd2d0cc
 ]
@@ -123,8 +107,6 @@ Z
 00x03/contas_especiais/ContaBancariaTarifada.java,d/6/d6b973dcdc7f8389e4c7b861ade24829ea07a21c
 b
 20x03/contas_especiais/ContaBancariaControlada.java,8/6/865cb620988f48c2f8512f683ba676036bcdc595
-T
-$0x03/contas_especiais/Program11.java,0/e/0e6c192f4d29690261d1f200a304257c94d2d4f0
 S
 #src/src/pedido_livraria/Pedido.java,6/1/615ddfe26a7540348d9a4252df8bcd19a9240142
 T

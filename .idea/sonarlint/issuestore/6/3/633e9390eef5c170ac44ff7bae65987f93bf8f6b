@@ -1,27 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(é“Æªÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(é“Æªÿÿÿÿÿ
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(é“Æªÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(²ù°Íûÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Íéå
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ‚ª°ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ‚ª°ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ‚ª°ÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(° È
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Íéå
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ó€Ä
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(Ó€Ä
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(Èòıò
-N	java:S106%"9Replace this use of System.out or System.err by a logger.(Íéå
-S	java:S106*"9Replace this use of System.out or System.err by a logger.(ƒç„Ìúÿÿÿÿ
-N	java:S106-"9Replace this use of System.out or System.err by a logger.(Íéå
-S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ï‡àæüÿÿÿÿ
-S	java:S1064"9Replace this use of System.out or System.err by a logger.(Ï‡àæüÿÿÿÿ
-N	java:S1067"9Replace this use of System.out or System.err by a logger.(Íéå
-t
-java:S1192"YDefine a constant instead of duplicating this literal "Conta %s - saldo: %.2f
-
-" 3 times.(²ù°Íûÿÿÿÿ
-t
-java:S1192"YDefine a constant instead of duplicating this literal "Conta %s - saldo: %.2f
-" 11 times.(é“Æªÿÿÿÿÿ
