@@ -18,6 +18,8 @@ public class InteiroPositivo {
         this.valor = valor;
     }
 
+    String s=String.valueOf(valor);
+
     void ehPrimo(){
 
 
