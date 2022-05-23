@@ -2,11 +2,11 @@ package TiposPrimitivos_Wrapper.inteiro_positivo;
 
 public class InteiroPositivo {
 
-    Integer valor;
+    int valor;
 
     Integer.toString();
 
-    public InteiroPositivo(Integer valor) {
+    public InteiroPositivo(int valor) {
         this.valor = valor;
     }
 
