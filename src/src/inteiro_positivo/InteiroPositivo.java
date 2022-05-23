@@ -2,12 +2,12 @@ package inteiro_positivo;
 
 public class InteiroPositivo {
 
-    private String valor;
-    private int i = Integer.parseInt(valor);
+    private int valor;
+    private int i = Integer.parseInt(String.valueOf(valor));
     private String resultado;
 
     public InteiroPositivo(String valor) {
-        this.valor = String.valueOf(valor);
+        this.valor = Integer.parseInt(String.valueOf(valor));
     }
 
     public InteiroPositivo(int i) {
@@ -15,11 +15,11 @@ public class InteiroPositivo {
     }
 
     public String getValor() {
-        return valor;
+        return String.valueOf(valor);
     }
 
     public void setValor(String valor) {
-        this.valor = valor;
+        this.valor = Integer.parseInt(valor);
     }
 
     public String ehPrimo(){
