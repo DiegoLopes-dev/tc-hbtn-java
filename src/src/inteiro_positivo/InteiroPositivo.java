@@ -2,8 +2,8 @@ package inteiro_positivo;
 
 public class InteiroPositivo {
 
-    String valor;
-    int i = Integer.parseInt(valor);
+    private String valor;
+    private int i = Integer.parseInt(valor);
     private String resultado;
 
     public InteiroPositivo(String valor) {
