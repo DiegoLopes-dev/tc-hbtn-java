@@ -5,8 +5,6 @@ R
 "0x00-java-hello_world/Println.java,b/0/b0bc4e27aa911446f06a075f333ed57769918b92
 \
 ,0x00-java-hello_world/PrintStringConcat.java,d/a/da23864c0b851b6d96ebea8ea4340811c12f3f62
-_
-/0x00-java-hello_world/PrintIntegerVariable.java,8/9/894cc7997febf33cf1854b209fca8942f08e6a8c
 M
 0x01/numeros/Numeros0a99.java,6/0/607363a34060afe0d1444648907defd9e98d6315
 L
