@@ -1,5 +1,3 @@
-package TiposPrimitivos_Wrapper.inteiro_positivo;
-
 public class Program {
     public static void main(String[] args) {
         try {
@@ -19,7 +17,7 @@ public class Program {
         }
 
         try {
-            inteiroPositivo1.setValor(-1);
+            inteiroPositivo1.setValor(Integer.parseInt(String.valueOf(-1)));
             System.out.println(inteiroPositivo1.getValor() + " - " + inteiroPositivo1.ehPrimo());
         } catch (Exception ex) {
             System.out.println(ex.getMessage());

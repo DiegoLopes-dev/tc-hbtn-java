@@ -3,7 +3,7 @@ package inteiro_positivo;
 public class InteiroPositivo {
 
     private int valor;
-    private String resultado;
+
 
     public InteiroPositivo(String valor) {
         if(Integer.parseInt(String.valueOf(valor)) < 0 ){
