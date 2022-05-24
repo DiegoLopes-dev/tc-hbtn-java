@@ -26,8 +26,9 @@ public class InteiroPositivo {
         if ((i % 2) == 1) {
             String resultado;
             resultado = "Valor nao eh um valor inteiro positivo";
+            return resultado;
         }
-        return resultado;
+        return null;
     }
 
 }
