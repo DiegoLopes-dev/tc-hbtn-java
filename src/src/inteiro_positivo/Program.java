@@ -19,7 +19,7 @@ public class Program {
         }
 
         try {
-            inteiroPositivo1.setValor(String.valueOf(-1));
+            inteiroPositivo1.setValor(Integer.parseInt(String.valueOf(-1)));
             System.out.println(inteiroPositivo1.getValor() + " - " + inteiroPositivo1.ehPrimo());
         } catch (Exception ex) {
             System.out.println(ex.getMessage());

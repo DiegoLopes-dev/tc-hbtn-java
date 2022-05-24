@@ -53,8 +53,6 @@ J
 0x05/heranca/Cachorro.java,a/1/a19c7345669d7cbaddd73d0e119cae9adf066f83
 H
 0x05/heranca/Animal.java,1/f/1f383493226dae5819b4c100b971dd7dc19335ae
-O
-0x05/forma/FormaGeometrica.java,4/a/4aea4c67d3e4cd3b97824c57b70835791a0054fa
 G
 0x05/forma/Program.java,3/8/38f474655cb3e56c03cfc6bf258b2effdaa16f4b
 ^

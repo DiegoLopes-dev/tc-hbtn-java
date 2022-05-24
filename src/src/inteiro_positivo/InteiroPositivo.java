@@ -3,32 +3,41 @@ package inteiro_positivo;
 public class InteiroPositivo {
 
     private int valor;
-    private int i = Integer.parseInt(String.valueOf(valor));
     private String resultado;
 
     public InteiroPositivo(String valor) {
+        if(Integer.parseInt(String.valueOf(valor)) < 0 ){
+            throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
+        }
         this.valor = Integer.parseInt(String.valueOf(valor));
     }
 
-    public InteiroPositivo(int i) {
-
-    }
-
-    public String getValor() {
-        return String.valueOf(valor);
-    }
-
-    public void setValor(String valor) {
-        this.valor = Integer.parseInt(valor);
-    }
-
-    public String ehPrimo(){
-        if ((i % 2) == 1) {
-            String resultado;
-            resultado = "Valor nao eh um valor inteiro positivo";
-            return resultado;
+    public InteiroPositivo(int valor) {
+        if(valor < 0 ){
+            throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
         }
-        return null;
+        this.valor = valor;
     }
 
+    public int getValor() {
+        return valor;
+    }
+
+    public void setValor(int valor) {
+        if(valor < 0 ){
+            throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
+        }
+        this.valor = valor;
+    }
+
+    public boolean ehPrimo() {
+        if(valor == 1){
+            return false;
+        }
+        for (int j = 2; j < valor; j++) {
+            if (valor % j == 0)
+                return false;
+        }
+        return true;
+    }
 }
