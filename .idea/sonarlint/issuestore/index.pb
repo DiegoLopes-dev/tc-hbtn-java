@@ -93,20 +93,12 @@ S
 #0x05/retangulo/FormaGeometrica.java,b/1/b1c31cc8e6af75f0529afb95db7bdcac801f01e8
 L
 0x04/personagem/Program.java,1/5/15ced1b6e2c9b328a6deee368aa7d0a71cd2d0cc
-]
--src/src/pedido_livraria/produtos/Produto.java,d/2/d2c6e6de6cca20b7c3238ee474f9d5c19013b22b
-W
-'src/src/pedido_livraria/ItemPedido.java,a/d/ad8ddcaed3f14e6e95d5a2220396c2c087f44564
 Z
 *0x03/conta_basica/ContaBancariaBasica.java,7/c/7c93c415adf51168ce90960fec32ceea469895a9
 `
 00x03/contas_especiais/ContaBancariaTarifada.java,d/6/d6b973dcdc7f8389e4c7b861ade24829ea07a21c
 b
 20x03/contas_especiais/ContaBancariaControlada.java,8/6/865cb620988f48c2f8512f683ba676036bcdc595
-S
-#src/src/pedido_livraria/Pedido.java,6/1/615ddfe26a7540348d9a4252df8bcd19a9240142
-T
-$src/src/pedido_livraria/Program.java,7/1/710351543128b64bf46b8d3143a91321e026b907
 R
 "0x06/resumo_pedido/ItemPedido.java,7/2/72d9591b19e40395c7699a0b7c2c2395a17ae9f2
 O
