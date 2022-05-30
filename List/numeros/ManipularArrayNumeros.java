@@ -1,12 +1,6 @@
 import java.util.List;
 public class ManipularArrayNumeros {
 
-    private static final ArrayList<Program> numeros = new ArrayList<>();
-
-    public static ArrayList<Program> getNumeros() {
-        return numeros;
-    }
-
     public static int buscarPosicaoNumero(List<Integer> numeros, int i){
         for( int j = 0; j < numeros.size(); j++){
             if(numeros.get(j) == i)
