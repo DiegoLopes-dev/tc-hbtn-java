@@ -1,8 +1,4 @@
-package numeros;
-
-import java.util.ArrayList;
 import java.util.List;
-
 public class ManipularArrayNumeros {
 
     private static final ArrayList<Program> numeros = new ArrayList<>();
@@ -37,6 +33,12 @@ public class ManipularArrayNumeros {
     }
 
     public static void substituirNumero(List<Integer> numeros, int i, int i1) {
+        int retorno = buscarPosicaoNumero(numeros, i);
 
+        if (retorno < 0) {
+            numeros.add(i1);
+        } else {
+            numeros.set(retorno,i1);
+        }
     }
 }
