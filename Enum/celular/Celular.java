@@ -36,6 +36,10 @@ public class Celular {
         }
     }
 
+    public void obterPosicaoContato (Contato contato) {
+
+    }
+
     public void atualizarContato(Contato contatoAntigo, Contato novoContato) {
 
 
