@@ -13,7 +13,8 @@ public class Celular {
         this.contatos = contatos;
     }
 
-    public int buscarPosicaoContato(String nomeDoContato){
+
+    public int obterPosicaoContato(String nomeDoContato){
          return  contatos.indexOf(nomeDoContato);
     }
 
@@ -34,10 +35,6 @@ public class Celular {
                 throw new IllegalArgumentException("Nao foi possivel remover contato. Contato nao existe");
             }
         }
-    }
-
-    public void obterPosicaoContato (Contato contato) {
-
     }
 
     public void atualizarContato(Contato contatoAntigo, Contato novoContato) {
