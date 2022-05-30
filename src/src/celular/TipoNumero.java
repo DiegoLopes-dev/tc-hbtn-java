@@ -1,4 +1,8 @@
 package celular;
 
-public class TipoNumero {
+public enum TipoNumero {
+
+    CELULAR,
+    COMERCIAL,
+    CASA;
 }
