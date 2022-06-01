@@ -1,0 +1,27 @@
+
+g
+java:S3457
+"Q%n should be used in place of \n to produce the platform-specific line separator.(ΩØ∆£
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ΩØ∆£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(êÕÈÂ
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ΩØ∆£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ΩØ∆£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(êÕÈÂ
+g
+java:S3457'"Q%n should be used in place of \n to produce the platform-specific line separator.(ΩØ∆£
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ΩØ∆£
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(êÕÈÂ
+g
+java:S34575"Q%n should be used in place of \n to produce the platform-specific line separator.(ΩØ∆£
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(ΩØ∆£
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(êÕÈÂ
+g
+java:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(ΩØ∆£
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ΩØ∆£
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(êÕÈÂ
+|
+java:S1192
+"fDefine a constant instead of duplicating this literal "Titulo: %s - Autor: %s - Preco: %.2f
+" 5 times.(ΩØ∆£
