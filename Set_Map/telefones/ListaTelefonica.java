@@ -1,8 +1,3 @@
-package Set_Map.telefones;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-
 public class ListaTelefonica {
 
     private HashMap<String, ArrayList<Telefone>> listaTelefones;
