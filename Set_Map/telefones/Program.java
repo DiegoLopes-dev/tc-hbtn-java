@@ -1,5 +1,3 @@
-package Set_Map.telefones;
-
 import java.util.ArrayList;
 
 public class Program {

@@ -1,5 +1,3 @@
-package Set_Map.telefones;
-
 public class Telefone {
 
     private String codigoArea;
