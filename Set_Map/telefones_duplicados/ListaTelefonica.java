@@ -1,8 +1,6 @@
-import telefones_duplicados.Telefone;
-
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
+import java.util.Map.Entry;
 
 public class ListaTelefonica {
 
@@ -18,7 +16,7 @@ public class ListaTelefonica {
         String chave = "";
 
 
-        for (Map.Entry<String, HashSet<Telefone>> entry : listaTelefones.entrySet()) {
+        for (Entry<String, HashSet<Telefone>> entry : listaTelefones.entrySet()) {
             if (entry.getValue().contains(telefone)) {
                 achou=true;
                 chave = entry.getKey();
