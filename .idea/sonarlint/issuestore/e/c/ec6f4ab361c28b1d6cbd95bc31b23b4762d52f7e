@@ -1,0 +1,7 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õĞùí8ÿÇ§‘0
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(‡§İ¿ıÿÿÿÿ8†È§‘0
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(óè³é8‡È§‘0
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÀé„8ˆÈ§‘0
+m	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ãÌÙ8ˆÈ§‘0

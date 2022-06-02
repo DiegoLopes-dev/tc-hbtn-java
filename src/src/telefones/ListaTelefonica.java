@@ -1,33 +1,53 @@
 package telefones;
 
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 public class ListaTelefonica {
 
-    private HashMap<String, ArrayList<Telefone>> listaTelefones;
+    private HashMap<String, HashSet<Telefone>> listaTelefones;
 
     public ListaTelefonica() {
         listaTelefones = new HashMap<>();
     }
 
-    public void adicionarTelefone(String nome, Telefone telefone) {
-        ArrayList<Telefone> telTemp = new ArrayList<Telefone>();
+    public HashSet<Telefone> adicionarTelefone(String nome, Telefone telefone) {
+        HashSet<Telefone> telTempLoc = new HashSet<Telefone>();
+        boolean achou = false;
+        String chave = "";
 
-        if (!listaTelefones.containsKey(nome)) {
-            telTemp.add(telefone);
-            listaTelefones.put(nome, telTemp);
-        } else {
-            telTemp = listaTelefones.get(nome);
-            telTemp.add(telefone);
-            listaTelefones.put(nome, telTemp);
+
+        for (Map.Entry<String, HashSet<Telefone>> entry : listaTelefones.entrySet()) {
+            if (entry.getValue().contains(telefone)) {
+                achou=true;
+                chave = entry.getKey();
+            }
         }
+
+        if(achou == false && listaTelefones.containsKey(nome)) {
+            telTempLoc.addAll(listaTelefones.get(nome));
+            telTempLoc.add(telefone);
+            listaTelefones.put(nome, telTempLoc);
+
+        }
+
+        if(chave.equals(nome) && achou) {
+            throw new IllegalArgumentException("Telefone jah existente para essa pessoa");
+        }else if(!chave.equals(nome) && achou){
+            throw new IllegalArgumentException("Telefone jah pertence a outra pessoa");
+        }
+
+        telTempLoc.add(telefone);
+        listaTelefones.put(nome, telTempLoc);
+
+        return telTempLoc;
 
     }
 
-    public ArrayList<Telefone> buscar(String nome) {
+    public HashSet<Telefone> buscar(String nome) {
 
-        ArrayList<Telefone> telTemp = new ArrayList<Telefone>();
+        HashSet<Telefone> telTemp = new HashSet<Telefone>();
 
         if (!listaTelefones.containsKey(nome)) {
             return null;
@@ -36,4 +56,5 @@ public class ListaTelefonica {
             return telTemp;
         }
     }
+
 }

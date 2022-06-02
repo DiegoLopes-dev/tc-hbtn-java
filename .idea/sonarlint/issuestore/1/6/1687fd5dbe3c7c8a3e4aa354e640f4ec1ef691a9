@@ -1,0 +1,16 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ›šù8íšø¦‘0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ›šù8ñšø¦‘0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëäÖÓıÿÿÿÿ8òšø¦‘0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëäÖÓıÿÿÿÿ8ôšø¦‘0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëäÖÓıÿÿÿÿ8õšø¦‘0
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ëäÖÓıÿÿÿÿ8öšø¦‘0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ƒ›šù8÷šø¦‘0
+g
+java:S1192"JDefine a constant instead of duplicating this literal "Total: %d" 3 times.(ƒ›šù8úšø¦‘0
+j
+java:S1192"HDefine a constant instead of duplicating this literal "Nutella" 4 times.(¾Ïúüÿÿÿÿ8úšø¦‘0
+l
+java:S1192"JDefine a constant instead of duplicating this literal "Chocolate" 4 times.(™ÍÎÕûÿÿÿÿ8ûšø¦‘0
+|
+java:S1192"ZDefine a constant instead of duplicating this literal "Total: %d - Removidos: %d" 4 times.(ëäÖÓıÿÿÿÿ8ûšø¦‘0

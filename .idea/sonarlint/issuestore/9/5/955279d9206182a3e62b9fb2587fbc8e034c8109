@@ -1,0 +1,5 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ö‡òÿÿÿÿÿ
+
+java:S1319"sThe return type of this method should be an interface such as "SortedMap" rather than the implementation "TreeMap".(ÿÀ…¡ûÿÿÿÿ
