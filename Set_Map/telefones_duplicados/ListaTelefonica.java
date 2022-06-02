@@ -1,27 +1,22 @@
-package telefones_duplicados;
-
-import telefones.Telefone;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
 public class ListaTelefonica {
 
-    private HashMap<String, HashSet<telefones.Telefone>> listaTelefones;
+    private HashMap<String, HashSet<Telefone>> listaTelefones;
 
     public ListaTelefonica() {
         listaTelefones = new HashMap<>();
     }
 
-    public HashSet<telefones.Telefone> adicionarTelefone(String nome, telefones.Telefone telefone) {
-        HashSet<telefones.Telefone> telTempLoc = new HashSet<telefones.Telefone>();
+    public HashSet<Telefone> adicionarTelefone(String nome, Telefone telefone) {
+        HashSet<Telefone> telTempLoc = new HashSet<Telefone>();
         boolean achou = false;
         String chave = "";
 
 
-        for (Map.Entry<String, HashSet<telefones.Telefone>> entry : listaTelefones.entrySet()) {
+        for (Map.Entry<String, HashSet<Telefone>> entry : listaTelefones.entrySet()) {
             if (entry.getValue().contains(telefone)) {
                 achou=true;
                 chave = entry.getKey();
@@ -48,9 +43,9 @@ public class ListaTelefonica {
 
     }
 
-    public HashSet<telefones.Telefone> buscar(String nome) {
+    public HashSet<Telefone> buscar(String nome) {
 
-        HashSet<telefones.Telefone> telTemp = new HashSet<Telefone>();
+        HashSet<Telefone> telTemp = new HashSet<Telefone>();
 
         if (!listaTelefones.containsKey(nome)) {
             return null;
@@ -59,4 +54,5 @@ public class ListaTelefonica {
             return telTemp;
         }
     }
+
 }
