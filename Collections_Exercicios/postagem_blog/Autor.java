@@ -72,8 +72,3 @@ public class Autor implements Comparable<Autor> {
     }
 
 }
-© 2022 GitHub, Inc.
-        Terms
-        Privacy
-        Security
-        Status
