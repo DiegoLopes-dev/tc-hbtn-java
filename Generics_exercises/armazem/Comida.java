@@ -37,6 +37,6 @@ public class Comida {
 
     @Override
     public String toString() {
-        return "[" + getNome() + "] " + String.format(java.util.Locale.GERMANY,"R$ %f", getCalorias()) + String.format(java.util.Locale.GERMANY,"R$ %f", getPreco());
+        return "[" + getNome() + "] " + String.format(java.util.Locale.GERMANY,"%f ", getCalorias()) + String.format(java.util.Locale.GERMANY,"R$ %f", getPreco());
     }
 }
