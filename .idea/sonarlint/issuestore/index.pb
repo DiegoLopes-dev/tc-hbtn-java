@@ -53,8 +53,6 @@ J
 0x05/heranca/Cachorro.java,a/1/a19c7345669d7cbaddd73d0e119cae9adf066f83
 H
 0x05/heranca/Animal.java,1/f/1f383493226dae5819b4c100b971dd7dc19335ae
-G
-0x05/forma/Program.java,3/8/38f474655cb3e56c03cfc6bf258b2effdaa16f4b
 ^
 .0x03/contas_especiais/ContaBancariaBasica.java,d/f/df249099cfc7a9b61b4cdaba99a6eb1031fcd261
 P
@@ -85,8 +83,6 @@ K
 0x05/abstrata/Quadrado.java,4/9/496fab1eedd8959eea3ea768e5bbae85452faa2d
 L
 0x05/abstrata/Retangulo.java,3/d/3dd1cca97664781ff1298ea9dc811cbb00753ff4
-J
-0x05/abstrata/Program.java,a/8/a89068e0666c16f27c07b2565e7ff13bd28c5be0
 M
 0x05/retangulo/Retangulo.java,0/2/027bac869131cfd6a7b95872dbff8388287a0296
 S

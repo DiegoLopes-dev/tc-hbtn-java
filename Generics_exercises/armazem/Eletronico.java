@@ -29,6 +29,6 @@ public class Eletronico {
 
     @Override
     public String toString() {
-        return "[" + getDescricao() + "] R$ " + String.format("%f", getValor());
+        return "[" + getDescricao() + "] R$ " + String.format(java.util.Locale.GERMANY,"%f", getValor());
     }
 }
