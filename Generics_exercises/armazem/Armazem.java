@@ -6,7 +6,7 @@ public class Armazem<T> implements Armazenavel<T> {
     private Map<String, T> mapa = new TreeMap<>();
 
     @Override
-    public void adicionarInventario(String nome, T valor) {
+    public void adicionarAoInventario(String nome, T valor) {
         mapa.put(nome, valor);
     }
 
