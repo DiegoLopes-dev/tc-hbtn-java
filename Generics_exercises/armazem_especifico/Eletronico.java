@@ -1,3 +1,5 @@
+package Generics_exercises.armazem_especifico;
+
 public class Eletronico {
 
     private String descricao;
@@ -29,6 +31,6 @@ public class Eletronico {
 
     @Override
     public String toString() {
-        return "[" + getDescricao() + "] R$ " + String.format("%f", getValor());
+        return "[" + getDescricao() + "] R$ " + String.format(java.util.Locale.GERMANY,"%f", getValor());
     }
 }
