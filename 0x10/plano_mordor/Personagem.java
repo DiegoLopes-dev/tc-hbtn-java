@@ -1,3 +1,4 @@
+import Generics_exercises.armazem.Comida;
 import comida.*;
 import humor.*;
 

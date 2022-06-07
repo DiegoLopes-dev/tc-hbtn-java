@@ -1,0 +1,8 @@
+
+
+java:S1186
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(å·m8ÑØí¦‘0
+‡
+java:S1450"eRemove the "totalDeCaixasRemovidas" field and declare it as a local variable in the relevant methods.(Ï–÷Òıÿÿÿÿ8ÓØí¦‘0
+ƒ
+java:S1450"fRemove the "totalQuantidadeDeCaixas" field and declare it as a local variable in the relevant methods.(æ¾ Ò8ÓØí¦‘0

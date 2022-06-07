@@ -1,5 +1,3 @@
-package Generics_exercises.armazem;
-
 public interface Armazenavel<T> {
 
     public void adicionarAoInventario(String nome, T valor);

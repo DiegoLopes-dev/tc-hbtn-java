@@ -1,4 +1,4 @@
-package Generics_exercises.armazem;
+package armazem_especifico;
 
 public class Program {
     public static void main(String[] args) {

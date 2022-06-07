@@ -1,4 +1,4 @@
-package Generics_exercises.armazem;
+package armazem_especifico;
 
 public class Comida {
     private String nome;
@@ -39,6 +39,6 @@ public class Comida {
 
     @Override
     public String toString() {
-        return "[" + getNome() + "] " + String.format(java.util.Locale.GERMANY,"%f ", getCalorias()) + String.format(java.util.Locale.GERMANY,"R$ %f", getPreco());
+        return "[" + getNome() + "] " + String.format("R$ %f", getCalorias()) + String.format("R$ %f", getPreco());
     }
 }

@@ -1,4 +1,4 @@
-package Generics_exercises.armazem;
+package armazem_especifico;
 
 public class Eletronico {
 
@@ -31,6 +31,6 @@ public class Eletronico {
 
     @Override
     public String toString() {
-        return "[" + getDescricao() + "] R$ " + String.format(java.util.Locale.GERMANY,"%f", getValor());
+        return "[" + getDescricao() + "] R$ " + String.format("%f", getValor());
     }
 }

@@ -1,5 +1,3 @@
-package Generics_exercises.armazem;
-
 public class Program {
     public static void main(String[] args) {
         Comida comida1 = new Comida("arroz", 100, 15.9);

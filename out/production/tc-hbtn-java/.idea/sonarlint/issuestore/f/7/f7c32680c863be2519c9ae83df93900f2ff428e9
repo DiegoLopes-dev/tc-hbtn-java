@@ -1,0 +1,5 @@
+
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(³º½Åúÿÿÿÿ8Œ½…³‘0
+T	java:S106M"9Replace this use of System.out or System.err by a logger.(ˆ·©8½…³‘0
+
+java:S1319Z"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‚¶‹£8½…³‘0

@@ -1,4 +1,4 @@
-package Generics_exercises.armazem;
+package armazem_especifico;
 
 import java.util.Map;
 import java.util.TreeMap;

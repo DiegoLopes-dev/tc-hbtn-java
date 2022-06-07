@@ -1,0 +1,9 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Şóß«8Ôƒ…’0
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(úÛÒå8Õƒ…’0
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª¦´èşÿÿÿÿ8Øƒ…’0
+
+java:S1319"sThe return type of this method should be an interface such as "SortedSet" rather than the implementation "TreeSet".(¡÷îÓ8Ùƒ…’0

@@ -179,8 +179,6 @@ W
 'src/src/analisador_frase/Program12.java,3/b/3bdd061bd1d06e0cdd15d74058dd2fb1a5a66afb
 ]
 -Set_Map/analisador_frase/AnalisadorFrase.java,9/5/955279d9206182a3e62b9fb2587fbc8e034c8109
-U
-%Set_Map/analisador_frase/Program.java,0/8/08cf90e0f1870ac727d5cc3d8c15f4d8973bd8b2
 N
 0x03/conta_basica/Program.java,1/6/165f7db3a6afd5fbec70776c56ac56749357bd8f
 Y
