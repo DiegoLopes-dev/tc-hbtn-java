@@ -1,5 +1,3 @@
-package Generics_exercises.armazem_especifico;
-
 public class Eletronico {
 
     private String descricao;
