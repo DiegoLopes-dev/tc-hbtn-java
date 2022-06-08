@@ -59,6 +59,6 @@ public class Produto {
 
     @Override
     public String toString() {
-        return String.format("%s %f %f %d %s", getNome(), getPreco(), getPeso(), getQuantidadeEmEstoque(), getTipo());
+        return String.format(java.util.Locale.GERMANY,"%s %f %f %d %s", getNome(), getPreco(), getPeso(), getQuantidadeEmEstoque(), getTipo());
     }
 }

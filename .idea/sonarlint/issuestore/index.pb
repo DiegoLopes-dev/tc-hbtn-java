@@ -127,16 +127,12 @@ J
 0x08/workflow/Program.java,d/9/d98f9e0f9243b92612047be10c8ecb91d241ec02
 K
 0x08/workflow/Workflow.java,7/4/740199a195f9871e742917b60d1a047ca968e92a
-M
-0x09/agregacao/Empregado.java,0/5/05144828fa98a00220bac382d516dd1d1c66cc57
 L
 0x09/agregacao/Endereco.java,8/f/8f4a298856e11006a76b70e96522dcd1854cdac7
 S
 #0x07/workflow/CanalNotificacao.java,5/2/525c1ac0cc6215af8fbd9a4605a9739d70f08389
 N
 0x08/resumo_pedido/Pedido.java,c/d/cda1d64b615958a259ec4e239f10ecd0c33bf15d
-O
-0x07/workflow/FormatoVideo.java,1/a/1a4c09301803c053b89bfd8193eeb26c44bf4162
 I
 List/numeros/Program.java,b/b/bb69c5ba5df6a86e76690a3294c622efd2877709
 W
