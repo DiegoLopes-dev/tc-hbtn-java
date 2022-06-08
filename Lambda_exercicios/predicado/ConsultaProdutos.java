@@ -1,8 +1,7 @@
-import consulta_produtos.Produto;
-
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.function.Predicate;
+import consulta_produtos.Produto;
 
 public class ConsultaProdutos {
 
