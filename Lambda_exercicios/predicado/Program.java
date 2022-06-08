@@ -2,7 +2,6 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import java.util.*;
 import java.util.function.*;
-import consulta_produtos.Produto;
 
 public class Program {
     public static void main(String[] args) {
