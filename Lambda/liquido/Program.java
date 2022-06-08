@@ -1,5 +1,3 @@
-package Lambda.liquido;
-
 public class Program {
     public static void main(String[] args) {
         Funcionario funcionario1 = new Funcionario(2360);

@@ -1,4 +1,3 @@
-package Lambda.liquido;
 @FunctionalInterface
 public interface CalculadorDeSalario {
 
