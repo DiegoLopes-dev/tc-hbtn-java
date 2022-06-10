@@ -8,9 +8,11 @@ public class Produto {
     private double preco;
 
     public Produto() {
+
     }
 
     public Produto(int codigo, String nome, CategoriaProduto categoria, double preco) {
+        super();
         this.codigo = codigo;
         this.nome = nome;
         this.categoria = categoria;
@@ -49,8 +51,11 @@ public class Produto {
         this.preco = preco;
     }
 
+
     @Override
     public String toString() {
-        return "[" + getCodigo() = " " + getCategoria() + " R$ " + String.format("%.2f", getPreco());
+        return "["+getCodigo()+"] "+ getNome()+" "+getCategoria()+
+                " R$ " +String.format("%.2f", getPreco());
     }
+
 }

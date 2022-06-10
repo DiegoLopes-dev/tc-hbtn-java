@@ -7,9 +7,11 @@ public class Cliente {
     private boolean premium;
 
     public Cliente() {
+
     }
 
     public Cliente(int codigo, String nome, boolean premium) {
+        super();
         this.codigo = codigo;
         this.nome = nome;
         this.premium = premium;
@@ -38,4 +40,6 @@ public class Cliente {
     public void setPremium(boolean premium) {
         this.premium = premium;
     }
+
+
 }
