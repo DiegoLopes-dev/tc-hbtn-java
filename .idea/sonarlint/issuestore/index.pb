@@ -142,10 +142,6 @@ O
 L
 src/src/celular/Contato.java,4/a/4a911b601b69ecefde2a3c7110bac29de2b6f617
 L
-src/src/celular/Celular.java,4/3/43392b87ea52306e948dad4545bf0abebf28739f
-L
-src/src/celular/Program.java,4/1/412f1ed6dc97c9c72ddc036d7eead65aeb224453
-L
 Enum/celular/TipoNumero.java,8/3/83f14cedc19632a894407fd1b93c978abf8940aa
 I
 Enum/celular/Program.java,5/c/5c35b3b9b8a138d79f5921d69b896cd0d10610c0
@@ -159,8 +155,6 @@ H
 src/src/banco/Banco.java,f/7/f7c32680c863be2519c9ae83df93900f2ff428e9
 J
 src/src/banco/Cliente.java,6/3/6377990636edd95115c919ad99695fea42aac7b0
-J
-src/src/banco/Program.java,9/5/95838b19c091ac964bfd1aa9333542777c3cc251
 E
 Enum/banco/Banco.java,6/c/6c687d3929bd15ddf27ba13781a7c99e27ec98cb
 G
@@ -171,16 +165,10 @@ G
 Enum/banco/Program.java,3/e/3e37dc052fe591a7399f000f3c8eb72eed473fb5
 ]
 -src/src/analisador_frase/AnalisadorFrase.java,2/c/2ca949dcd4e334ae65e464f8a9c0001c32166e0c
-W
-'src/src/analisador_frase/Program12.java,3/b/3bdd061bd1d06e0cdd15d74058dd2fb1a5a66afb
 ]
 -Set_Map/analisador_frase/AnalisadorFrase.java,9/5/955279d9206182a3e62b9fb2587fbc8e034c8109
 N
 0x03/conta_basica/Program.java,1/6/165f7db3a6afd5fbec70776c56ac56749357bd8f
-Y
-)src/src/duplicados/NumerosDuplicados.java,3/2/3210385c67afae50e01982ef469e7bb6990bf6cf
-O
-src/src/duplicados/Program.java,9/b/9bc4a6611832a60c77bb1ba9418cdbffaf04e9e1
 O
 Set_Map/duplicados/Program.java,4/7/4723fc0eb78103615b858536aaeb0b2caf1b6b67
 Z
