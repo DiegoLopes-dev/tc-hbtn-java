@@ -3,6 +3,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 public class Consulta {
 
     public static List<Produto> obterLivrosDoPedido(Pedido pedido) {
@@ -15,6 +16,7 @@ public class Consulta {
         return filter;
 
     }
+
 
     public static Produto obterProdutoMaiorPreco(List<Produto> produtos) {
 
@@ -30,4 +32,18 @@ public class Consulta {
 
         return produtoMenorPreco;
     }
+
+
+    public static List<Pedido> obterPedidosComEletronicos(List<Pedido> pedidos) {
+        return pedidos.stream()
+                .filter(pd -> pd.getProdutos().stream()
+                        .anyMatch(p -> p.getCategoria().equals(CategoriaProduto.ELETRONICO)))
+                .collect(Collectors.toList());
+
+    }
+
+
+
+
+
 }
