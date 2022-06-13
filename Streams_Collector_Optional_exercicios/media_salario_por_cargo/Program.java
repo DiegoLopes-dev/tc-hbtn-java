@@ -1,8 +1,10 @@
-import java.util.*;
+package Streams_Collector_Optional_exercicios.media_salario_por_cargo;
+
+import java.util.List;
+import java.util.Map;
 
 public class Program {
     public static void main(String[] args) {
-        Locale.setDefault(new Locale("pt", "BR"));
         Pessoa pessoa1 = new Pessoa(1, "John Bannins", "Desenvolvedor", 23, 3200);
         Pessoa pessoa2 = new Pessoa(2, "Derry Collier", "Desenvolvedor", 45, 8600);
         Pessoa pessoa3 = new Pessoa(3, "Mikey Berg", "Product Owner", 51, 11350);
@@ -17,11 +19,11 @@ public class Program {
         List<Pessoa> todasPessoas = List.of(pessoa1, pessoa2, pessoa3, pessoa4, pessoa5,
                 pessoa6, pessoa7, pessoa8, pessoa9, pessoa10);
 
-        Map<String, Double> pessoas1 = ConsultaPessoas.obterMediaSalarioPorCargo(todasPessoas);
-        Map<String, Double> pessoas2 = ConsultaPessoas.obterMediaSalarioPorCargo(
+        Map<String, Map<Integer, Long>> pessoas1 = ConsultaPessoas.obterContagemPessoasPorCargoEIdade(todasPessoas);
+        Map<String, Map<Integer, Long>> pessoas2 = ConsultaPessoas.obterContagemPessoasPorCargoEIdade(
                 List.of(pessoa1, pessoa2, pessoa3, pessoa4, pessoa9, pessoa10)
         );
-        Map<String, Double> pessoas3 = ConsultaPessoas.obterMediaSalarioPorCargo(
+        Map<String, Map<Integer, Long>> pessoas3 = ConsultaPessoas.obterContagemPessoasPorCargoEIdade(
                 List.of(pessoa1, pessoa3, pessoa4, pessoa5, pessoa9)
         );
 
