@@ -1,5 +1,3 @@
-package pessoas_por_cargo_ordem_reversa;
-
 import java.text.DecimalFormat;
 
 public class Pessoa implements Comparable<Pessoa>{

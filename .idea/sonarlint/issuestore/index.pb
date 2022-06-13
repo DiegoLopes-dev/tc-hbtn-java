@@ -99,8 +99,6 @@ R
 "0x06/resumo_pedido/ItemPedido.java,7/2/72d9591b19e40395c7699a0b7c2c2395a17ae9f2
 O
 0x06/resumo_pedido/Program.java,c/b/cbd8a71a67f2594268c3e61f2863b4ef8163943f
-m
-=TiposPrimitivos_Wrapper/inteiro_positivo/InteiroPositivo.java,4/b/4bfc4730a1a5bf54cc2bc08ccf404f4777d4c16a
 ]
 -src/src/inteiro_positivo/InteiroPositivo.java,a/9/a999f462981b35e4c87eda3fc3ee6fa1473721ad
 H
