@@ -17,3 +17,5 @@ public class ConsultaPessoas {
         return pessoas.stream().collect(Collectors.groupingBy(Pessoa::getCargo, Collectors.groupingBy(Pessoa::getIdade, Collectors.counting())));
     }
 }
+
+
