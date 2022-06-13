@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 
 public class ConsultaPessoas {
 
-    public static Map<String, List<Pessoa>> obterPessoasAgrupadasPorCargoEmOrdemReversa(List<Pessoa> todasPessoas) {
-       return todasPessoas.stream().collect(Collectors.groupingBy(Pessoa::getCargo));
+    public static Map<String, List<Pessoa>> obterPessoasAgrupadasPorCargoEmOrdemReversa(List<Pessoa> pessoas) {
+       return pessoas.stream().collect(Collectors.groupingBy(Pessoa::getCargo));
     }
 }
