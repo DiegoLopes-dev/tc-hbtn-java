@@ -8,10 +8,10 @@
 		<relativePath/>
 	</parent>
     <groupId>org.example</groupId>
-    <artifactId>untitled</artifactId>
+    <artifactId>financeiro-api</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>untitled Tapestry 5 Application</name>
+    <name>financeiro-api Tapestry 5 Application</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-boot-version>2.5.4</spring-boot-version>

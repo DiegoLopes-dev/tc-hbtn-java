@@ -6,7 +6,7 @@ plugins {
 }
 
 application {
-    description = "untitled application"
+    description = "financeiro-api application"
     group = "org.example"
     version = "1.0-SNAPSHOT"
     mainClass = 'org.example.spring.App'
