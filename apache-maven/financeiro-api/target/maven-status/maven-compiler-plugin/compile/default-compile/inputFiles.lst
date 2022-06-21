@@ -1,10 +1,1 @@
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/pages/Index.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/services/DevelopmentModule.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/pages/Error404.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/spring/App.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/services/AppModule.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/services/QaModule.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/pages/Login.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/spring/AppConfiguration.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/pages/About.java
-/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/org/example/components/Layout.java
+/home/diegolm/Documentos/Labs/desafio repo techcamps/tc-hbtn-java/apache-maven/financeiro-api/src/main/java/com/techcamps/financeiro/FinanceiroMain.java
